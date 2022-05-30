@@ -1,0 +1,41 @@
+body{
+    font-family: cursive;
+    color:#000000;
+    background:rgb(199, 1, 67);
+        
+      }
+.heading{
+    width:70%;
+    font-size:25px;
+}
+.name_of_object,#result_ob_name,#result_ob_accruacy{
+    color:yellow;
+
+}
+#camera{
+    border: 3px dashed cornflowerblue;
+    width: 400px;
+    height: 310px;
+animation-name: test;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+#result{
+    
+    border: 3px dashed rgb(72, 153, 133);
+    width: 400px;
+height: 310px;
+
+animation-name: test;
+animation-duration:4s;
+animation-iteration-count: infinite;
+}
+
+    @keyframes test{
+        from{
+            box-shadow:1px 1px 40px rgb(248, 252, 251);
+        }
+        to{
+            box-shadow:1px 1px 40px rgb(240, 75, 152);
+        }
+    }
